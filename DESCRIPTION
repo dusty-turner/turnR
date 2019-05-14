@@ -1,11 +1,11 @@
 Package: turnR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Personal Package of Useful R Commands
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Dusty Turner
+Maintainer: The package maintainer <dusty.s.turner@gmail.com>
+Description: This package contains a collection of useful functions that I use often.  I created it to simplify my life.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
