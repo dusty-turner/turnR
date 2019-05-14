@@ -7,11 +7,8 @@
 hello(name)
 }
 \value{
-factor
+name factor
 }
 \description{
 Creats my first package
-}
-\examples{
-test
 }

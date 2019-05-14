@@ -2,10 +2,10 @@
 #'
 #' Creats my first package
 #'
-#' @return factor
+#' @return name factor
 #' @export factor
 #'
-#' @examples test
+#' @examples
 hello <- function(name) {
-  print(paste0("Hello", name))
+  print(paste0("Hello ", name))
 }
