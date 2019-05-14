@@ -2,13 +2,19 @@
 % Please edit documentation in R/hello.R
 \name{hello}
 \alias{hello}
-\title{Prints Hello World}
+\title{Says Hello To The User}
 \usage{
 hello(name)
 }
+\arguments{
+\item{name}{A character string}
+}
 \value{
-name factor
+A character string that says Hello \code{name}
 }
 \description{
-Creats my first package
+This packages provides this function to say hello to the user.
+}
+\examples{
+hello(name = "Dusty")
 }
