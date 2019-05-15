@@ -4,10 +4,13 @@
 \alias{mycat}
 \title{Cat Function}
 \usage{
-mycat(CatName = NULL)
+mycat(CatName = "Beat Navy")
+}
+\arguments{
+\item{CatName}{A Cat Name}
 }
 \value{
-ASCII Cat
+ASCII Cat with its name.  An incorrect data type will return an angry cat.
 }
 \description{
 Cat Function
