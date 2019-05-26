@@ -6,15 +6,9 @@
 \usage{
 theme_turnR()
 }
-\arguments{
-\item{theme}{}
-}
 \value{
 ggplot theme
 }
 \description{
 Title
-}
-\examples{
-theme_turnR()
 }
