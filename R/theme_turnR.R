@@ -1,4 +1,4 @@
-#' Title
+#' turnR theme for ggplot
 #'
 #' @return ggplot theme
 #' @export

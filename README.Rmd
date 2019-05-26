@@ -57,3 +57,23 @@ diamonds %>%
   theme_turnR_f()
 ```
 
+## Example 3 `randtest` and `randtestvis`
+
+```{r}
+set.seed(256)
+x=rnorm(100,1,0)
+y=rnorm(100,1.1,1)
+rt = randtest(x,y,fun = mean, reps = 10000)
+rt[2] 
+rt[3] 
+randtestviz(x,y,fun = mean, reps = 10000)
+```
+
+## Cats
+
+Oh, and everyone likes cats
+
+```{r}
+mycat(CatName = "BeatNavy")
+```
+

@@ -3,5 +3,6 @@
 export(hello)
 export(mycat)
 export(randtest)
+export(randtestviz)
 export(theme_turnR)
 export(theme_turnR_f)

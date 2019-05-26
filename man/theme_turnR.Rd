@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_turnR.R
 \name{theme_turnR}
 \alias{theme_turnR}
-\title{Title}
+\title{turnR theme for ggplot}
 \usage{
 theme_turnR()
 }
@@ -10,5 +10,5 @@ theme_turnR()
 ggplot theme
 }
 \description{
-Title
+turnR theme for ggplot
 }

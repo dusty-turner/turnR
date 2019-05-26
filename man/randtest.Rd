@@ -2,7 +2,7 @@
 % Please edit documentation in R/randtest.R
 \name{randtest}
 \alias{randtest}
-\title{Title}
+\title{Randomization Test}
 \usage{
 randtest(x, y, fun = mean, reps = 10000)
 }
@@ -15,6 +15,12 @@ randtest(x, y, fun = mean, reps = 10000)
 
 \item{reps}{double}
 }
+\value{
+a list of probabilities
+}
 \description{
-Title
+This fuction is a derivation from the randomization test as
+presented in the Kuiper Applied Statistics Text Book.  The
+results are in terms of the probability that the null hypothesis
+is true
 }

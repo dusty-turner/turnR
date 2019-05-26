@@ -1,11 +1,16 @@
-#' Title
+#' Randomization Test
+#'
+#' This fuction is a derivation from the randomization test as
+#' presented in the Kuiper Applied Statistics Text Book.  The
+#' results are in terms of the probability that the null hypothesis
+#' is true
 #'
 #' @param x double
 #' @param y double
 #' @param fun factor
 #' @param reps double
 #'
-#' @return
+#' @return a list of probabilities
 #' @export
 #'
 #' @example
