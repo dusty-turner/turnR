@@ -1,0 +1,59 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(tidyverse)
+```
+# turnR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The turnR package contains several functions that I find useful.  Feel free to use them and recomended changes and updates as you desire.  Thanks!
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("dusty-turner/turnR")
+```
+## Example `theme_turnR`
+
+This is an example which shows you how to use the `theme_turnR` function for ggplot2.
+
+```{r example theme_turnR}
+library(turnR)
+data("diamonds")
+diamonds %>%
+  ggplot(aes(x=carat,y=price,color=cut,fill=cut)) +
+  geom_point() +
+  labs(title = "Diamonds Data") +
+  theme_turnR()
+```
+
+## Example 2 `theme_turnR_f`
+
+This is an example which shows you how to use the `theme_turnR_f` function for ggplot2.
+
+```{r example theme_turnR_f}
+library(turnR)
+data("diamonds")
+diamonds %>%
+  ggplot(aes(x=cut,y=price,color=cut,fill=cut)) +
+  geom_violin() +
+  labs(title = "Diamonds Data") +
+  facet_wrap(~clarity) +
+  theme_turnR_f()
+```
+
