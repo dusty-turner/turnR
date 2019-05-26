@@ -6,6 +6,9 @@
 \usage{
 theme_turnR_f()
 }
+\value{
+ggplot theme
+}
 \description{
 theme_turnR_f
 }

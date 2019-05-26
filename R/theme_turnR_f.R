@@ -1,6 +1,6 @@
 #' theme_turnR_f
 #'
-#' @return
+#' @return ggplot theme
 #' @export
 #'
 theme_turnR_f  <- function () {
