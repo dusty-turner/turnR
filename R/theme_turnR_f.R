@@ -14,6 +14,7 @@ theme_turnR_f  <- function () {
     panel.border = ggplot2::element_rect(linetype = "solid", fill = NA),
     legend.position = "none",
     plot.title = ggplot2::element_text(hjust = 0.5),
+    plot.subtitle = ggplot2::element_text(hjust = 0.5),
     axis.text.x = ggplot2::element_text(angle = 45, hjust = 1)
   )
 }
