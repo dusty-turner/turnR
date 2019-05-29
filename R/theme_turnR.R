@@ -13,6 +13,7 @@ theme_turnR  <- function () {
     plot.background = ggplot2::element_rect(fill="gray96", colour="gray96"),
     panel.border = ggplot2::element_rect(linetype = "solid", fill = NA),
     legend.position = "none",
-    plot.title = ggplot2::element_text(hjust = 0.5)
+    plot.title = ggplot2::element_text(hjust = 0.5),
+    plot.subtitle = ggplot2::element_text(hjust = 0.5)
   )
 }

@@ -11,7 +11,8 @@ LazyData: true
 Imports: 
     ggplot2,
     dplyr,
-    tidyverse
+    tidyverse,
+    turnR
 RoxygenNote: 6.1.1
 Suggests: 
     testthat (>= 2.1.0)
